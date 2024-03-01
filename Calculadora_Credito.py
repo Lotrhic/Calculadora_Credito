@@ -53,6 +53,8 @@ def seleccionMenu():
 def montoCredito():
     """Funcion para que el usurario ingrese el monto que
     desea solicitar para el creddito."""
+    credito=int(input("Ingrese el monto que desea solicitar para el credito "))
+    return credito
 
 def cuotasMensuales():
     """Toma el monto total del creddito y lo divide
